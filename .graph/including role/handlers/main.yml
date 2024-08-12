@@ -1,0 +1,6 @@
+---
+# handlers file for try
+
+- name: Reboot
+  ansible.builtin.include_tasks:
+    file: UniInc.fn-Reboot/tasks/reboot.yml
